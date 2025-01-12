@@ -98,3 +98,31 @@ body{
     margin-top: 10px;
     display: none;
 }
+@media (max-width: 576px) {
+    .card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .search input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .search button {
+        padding: 8px;
+    }
+
+    .weather-icon {
+        width: 80px;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .details .col {
+        align-items: center;
+    }
+}
